@@ -1,4 +1,3 @@
-
 class RiskService {
 
     static getSettledBets() {

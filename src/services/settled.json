@@ -1,0 +1,352 @@
+[
+  {
+    "Customer": 1,
+    "Event": 1,
+    "Participant": 6,
+    "Stake": 50,
+    "Win": 250
+  },
+  {
+    "Customer": 2,
+    "Event": 1,
+    "Participant": 3,
+    "Stake": 5,
+    "Win": 0
+  },
+  {
+    "Customer": 3,
+    "Event": 1,
+    "Participant": 3,
+    "Stake": 20,
+    "Win": 0
+  },
+  {
+    "Customer": 4,
+    "Event": 1,
+    "Participant": 6,
+    "Stake": 200,
+    "Win": 1000
+  },
+  {
+    "Customer": 1,
+    "Event": 2,
+    "Participant": 1,
+    "Stake": 20,
+    "Win": 60
+  },
+  {
+    "Customer": 2,
+    "Event": 2,
+    "Participant": 1,
+    "Stake": 5,
+    "Win": 15
+  },
+  {
+    "Customer": 3,
+    "Event": 2,
+    "Participant": 2,
+    "Stake": 50,
+    "Win": 0
+  },
+  {
+    "Customer": 4,
+    "Event": 2,
+    "Participant": 5,
+    "Stake": 100,
+    "Win": 0
+  },
+  {
+    "Customer": 5,
+    "Event": 2,
+    "Participant": 3,
+    "Stake": 20,
+    "Win": 0
+  },
+  {
+    "Customer": 1,
+    "Event": 3,
+    "Participant": 5,
+    "Stake": 50,
+    "Win": 0
+  },
+  {
+    "Customer": 2,
+    "Event": 3,
+    "Participant": 5,
+    "Stake": 10,
+    "Win": 0
+  },
+  {
+    "Customer": 3,
+    "Event": 3,
+    "Participant": 5,
+    "Stake": 20,
+    "Win": 0
+  },
+  {
+    "Customer": 4,
+    "Event": 3,
+    "Participant": 5,
+    "Stake": 100,
+    "Win": 0
+  },
+  {
+    "Customer": 5,
+    "Event": 3,
+    "Participant": 6,
+    "Stake": 20,
+    "Win": 0
+  },
+  {
+    "Customer": 6,
+    "Event": 3,
+    "Participant": 1,
+    "Stake": 50,
+    "Win": 500
+  },
+  {
+    "Customer": 1,
+    "Event": 4,
+    "Participant": 1,
+    "Stake": 50,
+    "Win": 120
+  },
+  {
+    "Customer": 2,
+    "Event": 4,
+    "Participant": 5,
+    "Stake": 10,
+    "Win": 0
+  },
+  {
+    "Customer": 3,
+    "Event": 4,
+    "Participant": 6,
+    "Stake": 50,
+    "Win": 0
+  },
+  {
+    "Customer": 1,
+    "Event": 5,
+    "Participant": 10,
+    "Stake": 50,
+    "Win": 400
+  },
+  {
+    "Customer": 2,
+    "Event": 5,
+    "Participant": 7,
+    "Stake": 10,
+    "Win": 0
+  },
+  {
+    "Customer": 3,
+    "Event": 5,
+    "Participant": 9,
+    "Stake": 20,
+    "Win": 0
+  },
+  {
+    "Customer": 4,
+    "Event": 5,
+    "Participant": 9,
+    "Stake": 200,
+    "Win": 0
+  },
+  {
+    "Customer": 4,
+    "Event": 5,
+    "Participant": 10,
+    "Stake": 250,
+    "Win": 2000
+  },
+  {
+    "Customer": 5,
+    "Event": 5,
+    "Participant": 10,
+    "Stake": 20,
+    "Win": 160
+  },
+  {
+    "Customer": 6,
+    "Event": 5,
+    "Participant": 10,
+    "Stake": 50,
+    "Win": 400
+  },
+  {
+    "Customer": 1,
+    "Event": 5,
+    "Participant": 7,
+    "Stake": 40,
+    "Win": 0
+  },
+  {
+    "Customer": 1,
+    "Event": 6,
+    "Participant": 4,
+    "Stake": 40,
+    "Win": 160
+  },
+  {
+    "Customer": 2,
+    "Event": 6,
+    "Participant": 3,
+    "Stake": 15,
+    "Win": 0
+  },
+  {
+    "Customer": 3,
+    "Event": 6,
+    "Participant": 4,
+    "Stake": 50,
+    "Win": 0
+  },
+  {
+    "Customer": 4,
+    "Event": 6,
+    "Participant": 5,
+    "Stake": 100,
+    "Win": 0
+  },
+  {
+    "Customer": 4,
+    "Event": 6,
+    "Participant": 4,
+    "Stake": 120,
+    "Win": 480
+  },
+  {
+    "Customer": 5,
+    "Event": 6,
+    "Participant": 4,
+    "Stake": 10,
+    "Win": 40
+  },
+  {
+    "Customer": 2,
+    "Event": 7,
+    "Participant": 8,
+    "Stake": 10,
+    "Win": 0
+  },
+  {
+    "Customer": 2,
+    "Event": 7,
+    "Participant": 7,
+    "Stake": 20,
+    "Win": 0
+  },
+  {
+    "Customer": 3,
+    "Event": 7,
+    "Participant": 3,
+    "Stake": 50,
+    "Win": 300
+  },
+  {
+    "Customer": 1,
+    "Event": 8,
+    "Participant": 5,
+    "Stake": 80,
+    "Win": 320
+  },
+  {
+    "Customer": 5,
+    "Event": 8,
+    "Participant": 8,
+    "Stake": 20,
+    "Win": 0
+  },
+  {
+    "Customer": 1,
+    "Event": 9,
+    "Participant": 2,
+    "Stake": 60,
+    "Win": 480
+  },
+  {
+    "Customer": 1,
+    "Event": 9,
+    "Participant": 4,
+    "Stake": 50,
+    "Win": 0
+  },
+  {
+    "Customer": 2,
+    "Event": 9,
+    "Participant": 3,
+    "Stake": 20,
+    "Win": 0
+  },
+  {
+    "Customer": 2,
+    "Event": 9,
+    "Participant": 10,
+    "Stake": 20,
+    "Win": 0
+  },
+  {
+    "Customer": 3,
+    "Event": 9,
+    "Participant": 10,
+    "Stake": 20,
+    "Win": 0
+  },
+  {
+    "Customer": 3,
+    "Event": 9,
+    "Participant": 2,
+    "Stake": 50,
+    "Win": 400
+  },
+  {
+    "Customer": 4,
+    "Event": 9,
+    "Participant": 2,
+    "Stake": 200,
+    "Win": 1600
+  },
+  {
+    "Customer": 4,
+    "Event": 9,
+    "Participant": 6,
+    "Stake": 300,
+    "Win": 0
+  },
+  {
+    "Customer": 5,
+    "Event": 9,
+    "Participant": 8,
+    "Stake": 30,
+    "Win": 0
+  },
+  {
+    "Customer": 5,
+    "Event": 9,
+    "Participant": 7,
+    "Stake": 25,
+    "Win": 0
+  },
+  {
+    "Customer": 6,
+    "Event": 9,
+    "Participant": 2,
+    "Stake": 50,
+    "Win": 400
+  },
+  {
+    "Customer": 6,
+    "Event": 9,
+    "Participant": 7,
+    "Stake": 40,
+    "Win": 0
+  },
+  {
+    "Customer": 6,
+    "Event": 9,
+    "Participant": 6,
+    "Stake": 50,
+    "Win": 0
+  }
+]

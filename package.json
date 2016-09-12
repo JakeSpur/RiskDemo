@@ -1,0 +1,21 @@
+{
+  "name": "risk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jake Shelley <jakeshelley@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.3.1",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "enzyme": "^2.4.1",
+    "mocha": "^3.0.2",
+    "webpack": "^1.13.2"
+  }
+}

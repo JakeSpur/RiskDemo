@@ -1,12 +1,13 @@
 
 class UnusualStakeRule {
-    constructor(history, tag = 30, markAs = 'unusual_stake') {
+    constructor(history, stakeLimit = 10, tag = 'unusual_stake') {
         this.history = history;
+        this.stakeLimit = stakeLimit;
         this.tag = tag;
     }
 
     calculate(bet) {
-        return (bet.stake >= (this.history.averageStake * bet.stake)) ? this.tag : '';
+        return (Math.round(bet.stake / this.history.averageStake) > this.stakeLimit) ? this.tag : '';
     }
 }
 

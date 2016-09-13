@@ -1,16 +1,18 @@
-import webpack from 'webpack';
-import path from 'path';
+const webpack = require('webpack');
+const path = require('path');
 
-export default {
+module.exports = {
     debug: true,
-    devtool: 'source-map',
+    devtool: '#source-map',
     noInfo: false,
     entry: [
+        'webpack/hot/dev-server',
+        'webpack-hot-middleware/client?reload=true',
         './src/index'
     ],
     target: 'web',
     output: {
-        path: __dirname + '/dist', // Note: Physical files are only output by the production build task `npm run build`.
+        path: __dirname + '/dist',
         publicPath: '/',
         filename: 'bundle.js'
     },
@@ -19,21 +21,43 @@ export default {
     },
     module: {
         loaders: [
-            { test: /\.js$/, include: path.join(__dirname, 'src'), loaders: ['babel'] },
-            { test: /\.css$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss-loader') },
-            { test: /\.svg$/, loader: "url-loader?limit=10000&mimetype=image/svg+xml" }
+            {
+                test: /\.js$/,
+                include: path.join(__dirname, 'src'),
+                exclude: /node_modules/,
+                loader: 'babel'
+            },
+            {
+                test: /(\.css)$/,
+                loaders: ['style', 'css']
+            },
+            {
+                test: /\.svg$/,
+                loader: "url?limit=10000&mimetype=image/svg+xml"
+            },
+            {
+                test: /\.json$/,
+                loader: 'json'
+            },
+            {
+                test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
+                loader: 'file'
+            },
+            {
+                test: /\.(woff|woff2)$/,
+                loader: 'url?prefix=font/&limit=5000'
+            },
+            {
+                test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
+                loader: 'url?limit=10000&mimetype=application/octet-stream'
+            }
         ]
     },
-    postcss: [
-        require('autoprefixer-core'),
-        require('postcss-color-rebeccapurple')
-    ],
-
     resolve: {
         modulesDirectories: ['node_modules']
     },
-
     plugins: [
-        new ExtractTextPlugin('style.css', { allChunks: true })
+        new webpack.HotModuleReplacementPlugin(),
+        new webpack.NoErrorsPlugin()
     ]
 };

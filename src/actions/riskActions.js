@@ -1,20 +1,20 @@
 import * as types from './actionTypes';
 import riskService from '../services/mockedRiskService';
 
-export function loadSettledBets() {
+export function loadPastRisk() {
     return (dispatch) => {
-        riskService.getSettledBets().then((bets) => {
-            dispatch({ type: types.LOAD_SETTLED_SUCCESS, bets });
+        riskService.pastRisk().then((history) => {
+            dispatch({ type: types.LOAD_PAST_SUCCESS, history });
         }).catch((error) => {
             throw(error);
         });
     };
 }
 
-export function loadUnSettledBets() {
+export function loadFutureRisk() {
     return (dispatch) => {
-        riskService.getUnSettledBets().then((bets) => {
-            dispatch({ type: types.LOAD_UNSETTLED_SUCCESS, bets });
+        riskService.futureRisk().then((future) => {
+            dispatch({ type: types.LOAD_FUTURE_SUCCESS, future });
         }).catch((error) => {
             throw(error);
         });

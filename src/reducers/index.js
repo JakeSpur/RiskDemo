@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
-import settledBets from './settledReducer';
-import unSettledBets from './unSettledReducer';
+import history from './historyReducer';
+import future from './futureReducer';
 
 const rootReducer = combineReducers({
-    settledBets,
-    unSettledBets
+    history,
+    future
 });
 
 export default rootReducer;
